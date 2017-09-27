@@ -2,7 +2,20 @@ Attribute VB_Name = "ExcelUtils"
 Option Explicit
 
 Sub ExcelColumsToNumMap()
-    Dim ColNo   As Long
+
+    '================================================================================
+	' Function	: ExcelColumsToNumMap()
+	' Args		: Null
+	' Return	: Null
+	' Output	: Debug.Print
+    ' Author    : Rob Metcher
+    ' Date      : 28/09/2017
+	' Versions	: v1.0	Initial Commit
+    ' Purpose   : Display excel columns in Alpha and Alphanumeric for easy translation
+    '
+	'================================================================================
+
+	Dim ColNo   As Long
     Dim ColTemp As Long
     
     ColNo = 1
